@@ -13,7 +13,6 @@ def main():
     play_game_from_state(board, symbol_1, symbol_2, count)
 
 def intro():
-    print("Hello! Welcome to the Interactive Tic-Tac-Toe solver!")
     print("You will input a half-done board. You are X (Human) and the computer is O (Computer).")
     print("For every computer move, the path cost (number of states evaluated) will be printed.\n")
 
